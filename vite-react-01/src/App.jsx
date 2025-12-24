@@ -1,12 +1,16 @@
 
 
-
+import Demo from "./demo"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-   <h1>Welcome to Vite-React Project</h1>
+    <>//fragment
+   <Demo/>
+   <h1>Welcome to vite </h1>
+   <p>PRERNA DEMO PROJECT </p>
+   </>
   )
 }
 
