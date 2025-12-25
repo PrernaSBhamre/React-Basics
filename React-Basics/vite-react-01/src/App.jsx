@@ -4,11 +4,11 @@ import Demo from "./demo"
 
 function App() {
   
-
+const username="Prerna"
   return (
-    <>//fragment
+    <> /*fragrigated fragment*/
    <Demo/>
-   <h1>Welcome to vite </h1>
+   <h1>Welcome to vite {username}</h1>
    <p>PRERNA DEMO PROJECT </p>
    </>
   )
