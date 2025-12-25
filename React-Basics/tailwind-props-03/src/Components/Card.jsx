@@ -1,6 +1,8 @@
 import React from 'react'
 
-function Card() {
+function Card(props) {
+ console.log("props",props.username);
+ 
 
   return (
     <div className="w-60 flex flex-col rounded-xl bg-black min-h-[19rem] ">
@@ -19,8 +21,10 @@ function Card() {
         <div className="flex  justify-between">
           <p>#345</p>
           <p>0.01</p>
+          
         </div>
       </div>
+      
     </div>
   
   )
